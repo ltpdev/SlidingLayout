@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.gdcp.mvp.slidinglayout.SlidingLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:sliding_background="@color/colorPrimary"
+        app:sliding_text="栏目1"></com.gdcp.mvp.slidinglayout.SlidingLayout>
+
+    <com.gdcp.mvp.slidinglayout.SlidingLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:sliding_background="@android:color/holo_blue_dark"
+        app:sliding_text="栏目2"></com.gdcp.mvp.slidinglayout.SlidingLayout>
+
+    <com.gdcp.mvp.slidinglayout.SlidingLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:sliding_background="@color/colorAccent"
+        app:sliding_text="栏目3"></com.gdcp.mvp.slidinglayout.SlidingLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

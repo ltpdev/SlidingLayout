@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlidingLayout">
+        <attr name="sliding_text" format="string"></attr>
+        <attr name="sliding_background" format="color"></attr>
+    </declare-styleable>
+</resources>
